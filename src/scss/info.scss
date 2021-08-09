@@ -1,0 +1,29 @@
+.info{
+  padding: 93px 0 0;
+  background-color: #232323;
+  &__title{
+    @include text(Myriad Pro, 24px, 400, normal);
+    color: #777777;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  &__list{
+    list-style-type: none;
+  }
+  &__link{
+    @include text(Myriad Pro, 16px, 400, 23px);
+    color: #ffffff;
+  }
+  &__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 84px;
+  }
+  .col-3{
+    width: 13%;
+  }
+  .block{
+    margin-bottom: 17px;
+  }
+}

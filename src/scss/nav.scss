@@ -1,0 +1,119 @@
+.nav{
+  height: 64px;
+  position: relative;
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 14px;
+  }
+  &__name{
+    display: flex;
+    flex-direction: row;
+  }
+  &__title{
+    @include text(Myriad Pro, 33px, 400, normal);
+    text-align: left;
+    margin-left: 8px;
+  }
+  &__search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__all{
+    @include text(Myriad Pro, 15px, 400, normal);
+    color: #777777;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px 0 0 5px;
+    background-color: #f9f9f9;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .img{
+    margin-left: 6px;
+  }
+  &__input{
+    width: 770px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+  }
+  &__icon{
+    width: 49px;
+    height: 35px;
+    padding-top: 7px;
+    background-color: #ffaf2d;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+  }
+  &__link{
+    display: flex;
+    flex-direction: row;
+  }
+  &__sub{
+    @include text(Myriad Pro, 14px, 400, normal);
+    text-align: left;
+    color: #777777;
+    max-width: 100px;
+    margin-left: 5px;
+  }
+  &__basket{
+    display: flex;
+    flex-direction: row;
+  }
+  &__col{
+    display: flex;
+    flex-direction: column;
+  }
+  &__number{
+    @include text(Myriad Pro, 12px, 400, normal);
+    color: #ff8c00;
+    margin-right: 7px;
+  }
+  .basket{
+    width: 27px;
+    height: 29px;
+    margin-right: 12px;
+  }
+  &__summ{
+    @include text(Myriad Pro, 14px, 400, normal);
+    text-align: left;
+    color: #777777;
+  }
+  &__price{
+    @include text(Myriad Pro, 16px, 600, normal);
+    text-align: left;
+  }
+  .search{
+    display: none;
+    position: absolute;
+    content: '';
+    top: 49px;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    list-style-type: none;
+    max-height: 150px;
+    overflow-y: scroll;
+    &__link{
+      @include text(Myriad Pro, 18px, 400, 23px);
+      color: #fff;
+    }
+  }
+  .hide{
+    display: none;
+  }
+  .search li{
+    width: 100%;
+    height: 30px;
+    background-color: #00aa4bab;
+    padding: 7px;
+  }
+
+
+}

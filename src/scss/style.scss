@@ -1,0 +1,32 @@
+@import "../libs/MariadPro/stylesheet.css";
+@import "../libs/owlCarousel/owl.carousel.min.css";
+@import "../libs/owlCarousel/owl.theme.default.min.css";
+
+
+
+@import "text";
+@import "header";
+@import "media";
+@import "news";
+@import "recomm";
+@import "offer";
+@import "info";
+@import "footer";
+@import "menu";
+@import "nav";
+@import "first-screen";
+
+
+*{
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1550px;
+  margin: 0 auto;
+}
+body{
+  background-color: #f5f2f2;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 1200px) {
+  .header{
+    &__link{
+      font-size: calc(13px + (30 - 28) * ((100vw - 320px) / (1200 - 320)));
+    }
+  }
+}
+
+//}.block__body{
+//  padding: calc(20px + (50 -  20) * ((100vw - 320px) / (1200 - 320)));
+//}

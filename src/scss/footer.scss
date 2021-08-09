@@ -1,0 +1,61 @@
+.footer{
+  height: 100px;
+  background-color: #191919;
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  &__left{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  &__title{
+    @include text(Myriad Pro, 24px, 400, normal);
+    text-align: left;
+    color: white;
+  }
+  &__sub{
+    @include text(Myriad Pro, 16px, 300, normal);
+    color: #787878;
+    text-align: left;
+  }
+  &__img{
+    margin-right: 17px;
+  }
+  &__owner{
+    @include text(Myriad Pro, 18px, 400, normal);
+    text-align: left;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.header{
+  height: 48px;
+  background-color: #00aa4b;
+  &__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 15px;
+  }
+  &__link{
+    @include text(MyriadPro, 16px, 400, normal);
+    color: white;
+    cursor: pointer;
+  }
+  .li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img{
+    margin-right: 4px;
+  }
+}

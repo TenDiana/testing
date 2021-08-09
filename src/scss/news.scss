@@ -1,0 +1,71 @@
+.news{
+  padding: 174px 0 172px;
+  &__title{
+    @include text(Myriad Pro, 37px, 400, normal);
+    text-align: left;
+    width: 100%;
+    margin-bottom: 48px;
+    padding: 0 60px;
+  }
+  &__content{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 60px 0;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 43px;
+    height: 155px;
+  }
+  .col-1{
+    width: 45%;
+    padding-right: 105px;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img1{
+    margin-bottom: 28px;
+  }
+  &__img2{
+    margin: 0 20px 0 0;
+  }
+  &__name{
+    @include text(Myriad Pro, 16px, 400, normal);
+    color: #00aa4b;
+  }
+  &__data{
+    @include text(Myriad Pro, 16px, 400, normal);
+    color: #777777;
+  }
+  &__model{
+    @include text(Myriad Pro, 24px, 500, normal);
+    text-align: left;
+    margin-top: 10px;
+  }
+  &__text{
+    @include text(Myriad Pro, 16px, 400, normal);
+    text-align: left;
+    margin-top: 13px;
+  }
+  &__btn{
+    @include text(Myriad Pro, 16px, 400, normal);
+    width: 167px;
+    height: 35px;
+    border-radius: 17px;
+    background: none;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .moreNews{
+    margin-top: 30px;
+    max-height: 0;
+    transition: max-height 0.2s ease-in-out;
+    overflow: hidden;
+  }
+}

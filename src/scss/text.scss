@@ -1,0 +1,10 @@
+@mixin text($f, $fs, $fw, $ln){
+    font-family: $f, sans-serif;
+    font-style: normal;
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $ln;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}

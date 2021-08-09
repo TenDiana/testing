@@ -1,0 +1,119 @@
+.recomm{
+  padding: 0 0 171px 0;
+  &__title{
+    @include text(Myriad Pro, 40px, 400, normal);
+  }
+  &__sub{
+    @include text(Myriad Pro, 16, 400, normal);
+    color: #787878;
+    padding: 0 28%;
+    margin: 12px 0 65px;
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .left{
+    width: 594px;
+    height: 770px;
+    background-color: #ffffff;
+    position: relative;
+    &__firm{
+      @include text(Myriad Pro, 20px, 400, normal);
+      text-transform: uppercase;
+      padding: 69px 0 14px;
+    }
+    &__model{
+      @include text(Myriad Pro, 30px, 400, normal);
+      margin-bottom: 27px;
+    }
+    &__text{
+      @include text(Myriad Pro, 16px, 400, normal);
+      padding: 0 150px;
+      color: #787878;
+      margin-bottom: 41px;
+    }
+    &__img{
+      position: absolute;
+      content: '';
+      bottom: -1px;
+      left: 14%;
+    }
+  }
+  .right{
+    margin-left: 13px;
+  }
+  .top{
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 784px;
+    height: 419px;
+    background-color: #232323;
+    position: relative;
+    &__firm{
+      @include text(Myriad Pro, 20px, 400, normal);
+      text-transform: uppercase;
+      text-align: left;
+      margin: 121px 0 14px 0;
+    }
+    &__img{
+      position: absolute;
+      content: '';
+      top: 15px;
+    }
+    &__info{
+      z-index: 2;
+      margin-left: 247px;
+    }
+    &__model{
+      @include text(Myriad Pro, 30px, 400, normal);
+      text-align: left;
+      padding-right: 270px;
+      margin-bottom: 26px;
+    }
+    &__text{
+      @include text(Myriad Pro, 16px, 400, normal);
+      color: #777777;
+      text-align: left;
+      padding-right: 130px;
+    }
+  }
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    width: 787px;
+    height: 338px;
+    color: #121212;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 13px;
+    &__info{
+      margin-left: 64px;
+    }
+    &__firm{
+      @include text(Myriad Pro, 20px, 400, normal);
+      text-transform: uppercase;
+      text-align: left;
+      margin: 96px 0 14px;
+    }
+    &__model{
+      @include text(Myriad Pro, 30px, 400, normal);
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    &__text{
+      @include text(Myriad Pro, 16px, 400, normal);
+      text-align: left;
+      color: #787878;
+      padding-right: 330px;
+    }
+    &__img{
+      position: absolute;
+      content: '';
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
